@@ -1,0 +1,38 @@
+.course-module-viewer {
+
+  .course-module-viewer-title {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(0,0,0, 0.1);
+  }
+
+  .course-module-page-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .course-module-page-list-item {
+
+      .course-module-page-list-item-button {
+        font-size: 18px;
+        padding: 8px 15px 8px 30px;
+        width: 100%;
+        text-align: left;
+        border-left: 4px solid rgba(0,0,0, 0.1);
+        margin-bottom: 3px;
+      }
+
+      &.course-module-page-list-item-selected {
+        .course-module-page-list-item-button {
+          border-left: 4px solid #2196f3;
+        }
+      }
+    }
+
+    .course-module-page-list-item-description {
+      width: 100%;
+    }
+  }
+
+}

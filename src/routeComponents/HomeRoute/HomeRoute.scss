@@ -1,0 +1,48 @@
+.home-route {
+
+  .navigation-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .home-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .home-option {
+
+    .home-option-button-base, .home-option-card-content {
+      width: 100%; height: 100%;
+      text-align: left;
+      font-size: 18px;
+    }
+
+    .home-option-card-content {
+      padding: 15px 30px;
+    }
+
+    .home-option-name-icon {
+      font-size: 40px;
+      margin-right: 15px;
+      line-height: 0px;
+      vertical-align: middle;
+    }
+
+    .home-option-name {
+      margin-top: 15px;
+      padding: 0;
+      margin-bottom: 5px;
+      font-weight: normal;
+      font-size: 28px;
+    }
+    .home-option-description {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}

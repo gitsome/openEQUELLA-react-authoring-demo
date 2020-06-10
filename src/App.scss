@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+  background: #fafafa;
+}
+
+.app-content {
+  padding: 15px;
+}
+
+.reading-width {
+  max-width: 670px;
+}
+
+.app-breadcrumbs {
+  padding: 15px 30px;
+  .app-breadcrumbs-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+  }
+}
+
+.button-full-width {
+  width: 100%;
+}
+.button-icon-left {
+  margin-right: 5px;
+}
+
+.section-header {
+  margin-top: 15px;
+  display: flex;
+
+  .section-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    flex-grow: 1;
+  }
+  .section-toolbar {
+    position: relative;
+    top: -5px;
+  }
+}
+
+.empty-message {
+  overflow: visible;
+  width: 100%;
+  margin-top: 100px;
+  font-size: 40px;
+  color: rgba(0,0,0, 0.3);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.markdown-body {
+
+}

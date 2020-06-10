@@ -1,0 +1,13 @@
+$pageContainerOffset: 280px;
+
+.course-viewer {
+
+  padding-bottom: 100px;
+
+  .page-container {
+    position: relative;
+    background: white;
+    min-height: calc(100vh - #{$pageContainerOffset});
+    padding: 30px;
+  }
+}

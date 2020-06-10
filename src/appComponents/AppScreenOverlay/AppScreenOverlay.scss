@@ -1,0 +1,52 @@
+$topNavHeight: 112px;
+$screenOverlayShadowHeight: 5px;
+
+.screen-overlay {
+
+  position: absolute;
+  top: $topNavHeight;
+  right: 0;
+  height: calc(100% - #{$topNavHeight});
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  padding-top: $screenOverlayShadowHeight;
+
+  .screen-overlay-content {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(100% - #{$screenOverlayShadowHeight});
+    width: 100%;
+    background: #eee;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px -1px 4px rgba(0,0,0, 0.2);
+    pointer-events: all;
+    overflow-y: auto;
+
+    .screen-overlay-content-inner {
+
+      padding: 15px 30px 150px 30px;
+
+      .screen-overlay-content-inner-title {
+
+        font-size: 20px;
+
+        h2 {
+          margin-top: 15px;
+          margin-bottom: 30px;
+        }
+
+        .screen-overlay-content-inner-title-button {
+          margin-right: 15px;
+          vertical-align: middle;
+          line-height: 0;
+          position: relative;
+          top: -2px;
+        }
+      }
+    }
+
+  }
+}

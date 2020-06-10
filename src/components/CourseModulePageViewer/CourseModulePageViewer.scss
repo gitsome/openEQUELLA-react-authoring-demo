@@ -1,0 +1,33 @@
+.page-attachment-list {
+
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  .page-attachment-list-item {
+
+    padding: 10px 15px;
+    padding-left: 55px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #f8f8f8;
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 5px;
+
+    .page-attachment-list-item-type-icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      margin-top: -12px;
+    }
+
+    .page-attachment-list-item-description {
+
+    }
+    .page-attachment-list-item-filename {
+      font-size: 10px;
+      opacity: 0.6;
+    }
+  }
+}
